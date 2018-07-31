@@ -29,6 +29,13 @@ def title_string(s):
     >>> title_string("this iS a StrINg to be ConverTedD")
     'This Is A String To Be Converted'
     """
+    # Check that input is string
+    if not isinstance(s, str):
+        raise TypeError('Input must be string')
+
+    # Empty string
+    if len(s) == 0:
+        raise IndexError('Cannot apply title function to empty string')
 
     ret = s[0].upper()
 
