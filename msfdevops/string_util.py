@@ -26,7 +26,7 @@ def title_string(s):
 
     Examples
     ------------
-    >>> title_string("this iS a StrINg to be ConverTedD")
+    >>> title_string("this iS a StrINg to be ConverTed")
     'This Is A String To Be Converted'
     """
     # Check that input is string
